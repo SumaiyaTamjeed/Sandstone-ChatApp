@@ -9,9 +9,9 @@
 	color: #ffffff;
 }
 .rounded-corner{
-	-moz-border-radius: 20px;
-    -webkit-border-radius: 20px;
-    border-radius: 20px;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
 }
 .speech-bubble{
 	position:relative;
@@ -48,5 +48,7 @@
 .clientchat{
 	background-color: #EEEEEE;
 	padding: 10px;
+	margin-bottom: 10px
 }
 #template2{display: none;}
+#template3{display: none;}

@@ -27,10 +27,13 @@
 	  				<div id="template1" class="col-md-12" >
 	  					<p><strong>Marry:</strong>Hi Nicholas this is Mary from Abank.How may I help you today?</p>
 	  				</div>
-	  					<div id="template2" class="col-md-12">
+	  				<div id="template2" class="col-md-12">
 	  					<div class="clientchat rounded-corner">
 	  						<p><strong>Nicolas: </strong><span id="template2chat"></span></p>
 	  					</div>
+	  				</div>
+	  				<div id="template3" class="col-md-12">
+	  					<p><strong>Marry:</strong>To reset your password just click on the My details menu. Once you have clicked the menu a new page will apear. Select the link it will take you to a screen where you can change your password</p>
 	  				</div>
   				</div>
   			</div>
@@ -66,6 +69,7 @@
 		var value = $("#chat").val();
 		$("#template2").css({'display':'block'})
 		$("#template2chat").text(value)
+		setTimeout(function(){$("#template3").css({'display':'block'})},3000)
 
 	});
 
