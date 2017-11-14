@@ -40,3 +40,7 @@
 	text-decoration: underline;
 	color: white;
 }
+#template1{
+	display: none;
+}
+#chatinput{display: none;}
