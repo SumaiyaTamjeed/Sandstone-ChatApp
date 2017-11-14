@@ -44,3 +44,7 @@
 	display: none;
 }
 #chatinput{display: none;}
+.clientchat{
+	background-color: #EEEEEE;
+	padding: 10px;
+}
