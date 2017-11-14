@@ -1,7 +1,8 @@
 .chatbox{
 	margin-top: 20px;
+	padding-bottom: 20px;
 	background-color: #9C2626;
-	height: 300px;
+	
 }
 .chatbox h2{
 	font-family:Impact, Charcoal, sans-serif;
