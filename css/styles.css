@@ -22,3 +22,13 @@
 	min-height: 100px;
 
 }
+.speech-bubble:after{
+	content:"";
+  	position:absolute;
+  	bottom:-40px; 
+  	right:50px; 
+  	border-width:40px 40px 0 0; 
+  	border-style:solid;
+  	border-color:#dfdfdf transparent;
+  	display:block;
+}
