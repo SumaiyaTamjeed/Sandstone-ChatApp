@@ -3,6 +3,10 @@
 	background-color: #9C2626;
 	height: 300px;
 }
+.chatbox h2{
+	font-family:impact;
+	color: #ffffff;
+}
 .rounded-corner{
 	-moz-border-radius: 20px;
     -webkit-border-radius: 20px;
