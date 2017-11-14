@@ -1,4 +1,10 @@
 .chatbox{
-	background-color: red;
+	margin-top: 20px;
+	background-color: #9C2626;
 	height: 300px;
+}
+.rounded-corner{
+	-moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
 }
