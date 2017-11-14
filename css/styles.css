@@ -32,3 +32,10 @@
   	border-color:#dfdfdf transparent;
   	display:block;
 }
+.chatnow{
+	padding: 20px;
+}
+.chatnow a{
+	text-decoration: underline;
+	color: white;
+}
